@@ -1,3 +1,5 @@
+console.log("JavaScript file loaded.");
+
 // Define an array of random facts about US presidents
 const facts = [
   "George Washington was the first president of the United States.",
