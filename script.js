@@ -11,12 +11,14 @@ const button = document.getElementById("random-fact-button");
 
 // Function to generate and display a random fact
 function displayRandomFact() {
+  console.log("Button clicked!");
   // Generate a random index within the range of the facts array
   const randomIndex = Math.floor(Math.random() * facts.length);
   // Get the random fact using the random index
   const randomFact = facts[randomIndex];
   // Update the content of the container element with the random fact
-  container.textContent = randomFact;
+   container.textContent = randomFact;
+   
 }
 
 // Add a click event listener to the button
