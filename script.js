@@ -34,7 +34,9 @@ function displayRandomFact() {
 button.addEventListener("click", displayRandomFact);
 
 // Sandbox game variables
-const sandboxElement = document.getElementById('sandbox');
+var gameRunning = false;
+
+const sandboxElement = document.getElementById("sandbox");
 const sandboxWidth = 600;
 const sandboxHeight = 400;
 const playerSize = 50;
@@ -49,19 +51,20 @@ function drawPlayer() {
     <div id="player" style="left: ${playerX}px; top: ${playerY}px;"></div>
   `;
 }
+
 // Function to move the player
 function movePlayer(direction) {
     switch (direction) {
-        case 'left':
+        case "left":
             playerX -= playerSpeed;
             break;
-        case 'right':
+        case "right":
             playerX += playerSpeed;
             break;
-        case 'up':
+        case "up":
             playerY -= playerSpeed;
             break;
-        case 'down':
+        case "down":
             playerY += playerSpeed;
             break;
     }
@@ -69,29 +72,41 @@ function movePlayer(direction) {
 }
 
 // Event listeners for player movement
-document.addEventListener('keydown', function (event) {
+document.addEventListener("keydown", function (event) {
     switch (event.key) {
-        case 'ArrowLeft':
-            movePlayer('left');
+        case "ArrowLeft":
+            movePlayer("left");
             break;
-        case 'ArrowRight':
-            movePlayer('right');
+        case "ArrowRight":
+            movePlayer("right");
             break;
-        case 'ArrowUp':
-            movePlayer('up');
+        case "ArrowUp":
+            movePlayer("up");
             break;
-        case 'ArrowDown':
-            movePlayer('down');
+        case "ArrowDown":
+            movePlayer("down");
             break;
     }
 });
 
+// Function to start the sandbox game
+function startSandboxGame() {
+    if (!gameRunning) {
+        gameRunning = true;
+        initSandboxGame();
+    }
+}
+
+// Call the start function when the Start button is clicked
+const startButton = document.getElementById("start-button");
+startButton.addEventListener("click", startSandboxGame);
+
 // Initialize the sandbox game
 function initSandboxGame() {
-    sandboxElement.style.width = sandboxWidth + 'px';
-    sandboxElement.style.height = sandboxHeight + 'px';
+    sandboxElement.style.width = sandboxWidth + "px";
+    sandboxElement.style.height = sandboxHeight + "px";
     drawPlayer();
 }
 
 // Call the initialization function when the page loads
-window.addEventListener('load', initSandboxGame);
+window.addEventListener("load", initSandboxGame);
