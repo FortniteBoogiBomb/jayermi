@@ -116,6 +116,10 @@ startButton.addEventListener("click", startSandboxGame);
 function initSandboxGame() {
     sandboxElement.style.width = sandboxWidth + "px";
     sandboxElement.style.height = sandboxHeight + "px";
+
+    playerX = (sandboxWidth - playerSize) / 2;
+    playerY = (sandboxHeight - playerSize) / 2;
+
     drawPlayer();
 }
 
