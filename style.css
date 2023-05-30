@@ -53,11 +53,11 @@ body {
 #random-fact-container {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: lightgray;
+    background-color: #7e6f9e;
 }
 
 #random-fact-button {
-    background-color: #337ab7;
+    background-color: #7e6f9e;
     color: white;
     padding: 5px 10px;
     border: none;
