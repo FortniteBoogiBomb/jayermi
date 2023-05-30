@@ -46,7 +46,10 @@ let playerY = (sandboxHeight - playerSize) / 2;
 
 // Function to draw the player on the sandbox
 function drawPlayer() {
-    sandboxElement.innerHTML = `<div id="player"></div>`;
+    //sandboxElement.innerHTML = `<div id="player"></div>`;
+    const playerElement = document.getElementById("player");
+    playerElement.style.left = playerX + "px";
+    playerElement.style.top = playerY + "px";
 }
 
 // Function to move the player
