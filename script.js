@@ -47,8 +47,8 @@ let playerY = (sandboxHeight - playerSize) / 2;
 
 // Function to draw the player on the sandbox
 function drawPlayer() {
-    sandboxElement.innerHTML = `
-    <div id="player" style="left: ${playerX}px; top: ${playerY}px;"></div>
+    sandboxElement.innerHTML = ` 
+        <div id="player" style="left: ${playerX}px; top: ${playerY}px;"></div>
   `;
 }
 
@@ -94,6 +94,7 @@ function startSandboxGame() {
     if (!gameRunning) {
         gameRunning = true;
         initSandboxGame();
+        console.log("Game Started!");
     }
 }
 
@@ -110,3 +111,4 @@ function initSandboxGame() {
 
 // Call the initialization function when the page loads
 window.addEventListener("load", initSandboxGame);
+}
