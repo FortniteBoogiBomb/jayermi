@@ -50,6 +50,7 @@ function drawPlayer() {
     const playerElement = document.getElementById("player");
     playerElement.style.left = playerX + "px";
     playerElement.style.top = playerY + "px";
+    sandboxElement.appendChild(playerElement); // Add this line
 }
 
 // Function to move the player
