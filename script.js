@@ -55,28 +55,30 @@ function drawPlayer() {
 
 // Function to move the player
 function movePlayer(direction) {
-    let newX = playerX;
-    let newY = playerY;
-    switch (direction) {
-        case "left":
-            newX -= playerSpeed;
-            break;
-        case "right":
-            newX += playerSpeed;
-            break;
-        case "up":
-            newY -= playerSpeed;
-            break;
-        case "down":
-            newY += playerSpeed;
-            break;
+    if (gameRunning) { // Check if the game is running
+        let newX = playerX;
+        let newY = playerY;
+        switch (direction) {
+            case "left":
+                newX -= playerSpeed;
+                break;
+            case "right":
+                newX += playerSpeed;
+                break;
+            case "up":
+                newY -= playerSpeed;
+                break;
+            case "down":
+                newY += playerSpeed;
+                break;
+        }
+        // Check if the new position is within the sandbox boundaries
+        if (newX >= 0 && newX <= sandboxWidth - playerSize && newY >= 0 && newY <= sandboxHeight - playerSize) {
+            playerX = newX;
+            playerY = newY;
+        }
+        drawPlayer();
     }
-    // Check if the new position is within the sandbox boundaries
-    if (newX >= 0 && newX <= sandboxWidth - playerSize && newY >= 0 && newY <= sandboxHeight - playerSize) {
-        playerX = newX;
-        playerY = newY;
-    }
-    drawPlayer();
 }
 
 // Event listeners for player movement
