@@ -30,6 +30,68 @@ function displayRandomFact() {
    container.textContent = randomFact;
    
 }
-
 // Add a click event listener to the button
 button.addEventListener("click", displayRandomFact);
+
+// Sandbox game variables
+const sandboxElement = document.getElementById('sandbox');
+const sandboxWidth = 600;
+const sandboxHeight = 400;
+const playerSize = 50;
+const playerSpeed = 5;
+
+let playerX = (sandboxWidth - playerSize) / 2;
+let playerY = (sandboxHeight - playerSize) / 2;
+
+// Function to draw the player on the sandbox
+function drawPlayer() {
+    sandboxElement.innerHTML = `
+    <div id="player" style="left: ${playerX}px; top: ${playerY}px;"></div>
+  `;
+}
+// Function to move the player
+function movePlayer(direction) {
+    switch (direction) {
+        case 'left':
+            playerX -= playerSpeed;
+            break;
+        case 'right':
+            playerX += playerSpeed;
+            break;
+        case 'up':
+            playerY -= playerSpeed;
+            break;
+        case 'down':
+            playerY += playerSpeed;
+            break;
+    }
+    drawPlayer();
+}
+
+// Event listeners for player movement
+document.addEventListener('keydown', function (event) {
+    switch (event.key) {
+        case 'ArrowLeft':
+            movePlayer('left');
+            break;
+        case 'ArrowRight':
+            movePlayer('right');
+            break;
+        case 'ArrowUp':
+            movePlayer('up');
+            break;
+        case 'ArrowDown':
+            movePlayer('down');
+            break;
+    }
+});
+
+// Initialize the sandbox game
+function initSandboxGame() {
+    sandboxElement.style.width = sandboxWidth + 'px';
+    sandboxElement.style.height = sandboxHeight + 'px';
+    drawPlayer();
+}
+
+// Call the initialization function when the page loads
+window.addEventListener('load', initSandboxGame);
