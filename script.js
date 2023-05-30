@@ -46,13 +46,19 @@ let playerY = (sandboxHeight - playerSize) / 2;
 
 // Function to draw the player on the sandbox
 function drawPlayer() {
-    //sandboxElement.innerHTML = `<div id="player"></div>`;
-    const playerElement = document.getElementById("player");
+    const existingPlayerElement = document.getElementById("player");
+    if (existingPlayerElement) {
+        existingPlayerElement.classList.remove("player");
+    }
+
+    const playerElement = document.createElement("div");
+    playerElement.setAttribute("id", "player");
+    playerElement.classList.add("player");
     playerElement.style.left = playerX + "px";
     playerElement.style.top = playerY + "px";
-    sandboxElement.appendChild(playerElement); // Add this line
-}
 
+    sandboxElement.appendChild(playerElement);
+}
 // Function to move the player
 function movePlayer(direction) {
     if (gameRunning) { // Check if the game is running

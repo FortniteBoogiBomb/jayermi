@@ -68,9 +68,10 @@ body {
     background-color: black;
 }
 
-#player {
-    background-color: red;
+.player {
+    position: absolute;
     width: 30px;
     height: 30px;
-    position: absolute;
+    background-color: red;
+    /* Add any additional styles you want */
 }
