@@ -65,8 +65,12 @@ body {
     cursor: pointer;
 }
 #sandbox {
-    background-color: black;
+    position: relative; /* Ensure the sandbox has relative positioning */
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
 }
+
 
 .player {
     position: absolute;
