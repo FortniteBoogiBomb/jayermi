@@ -111,4 +111,3 @@ function initSandboxGame() {
 
 // Call the initialization function when the page loads
 window.addEventListener("load", initSandboxGame);
-}
