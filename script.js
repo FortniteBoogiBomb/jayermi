@@ -27,8 +27,7 @@ function displayRandomFact() {
   // Get the random fact using the random index
   const randomFact = facts[randomIndex];
   // Update the content of the container element with the random fact
-   container.textContent = randomFact;
-   
+   container.textContent = randomFact;  
 }
 // Add a click event listener to the button
 button.addEventListener("click", displayRandomFact);
@@ -39,34 +38,39 @@ var gameRunning = false;
 const sandboxElement = document.getElementById("sandbox");
 const sandboxWidth = 600;
 const sandboxHeight = 400;
-const playerSize = 50;
-const playerSpeed = 5;
+const playerSize = 30;
+const playerSpeed = 10;
 
 let playerX = (sandboxWidth - playerSize) / 2;
 let playerY = (sandboxHeight - playerSize) / 2;
 
 // Function to draw the player on the sandbox
 function drawPlayer() {
-    sandboxElement.innerHTML = ` 
-        <div id="player" style="left: ${playerX}px; top: ${playerY}px;"></div>
-  `;
+    sandboxElement.innerHTML = `<div id="player"></div>`;
 }
 
 // Function to move the player
 function movePlayer(direction) {
+    let newX = playerX;
+    let newY = playerY;
     switch (direction) {
         case "left":
-            playerX -= playerSpeed;
+            newX -= playerSpeed;
             break;
         case "right":
-            playerX += playerSpeed;
+            newX += playerSpeed;
             break;
         case "up":
-            playerY -= playerSpeed;
+            newY -= playerSpeed;
             break;
         case "down":
-            playerY += playerSpeed;
+            newY += playerSpeed;
             break;
+    }
+    // Check if the new position is within the sandbox boundaries
+    if (newX >= 0 && newX <= sandboxWidth - playerSize && newY >= 0 && newY <= sandboxHeight - playerSize) {
+        playerX = newX;
+        playerY = newY;
     }
     drawPlayer();
 }
