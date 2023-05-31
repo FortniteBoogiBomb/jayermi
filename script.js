@@ -32,6 +32,24 @@ function displayRandomFact() {
 // Add a click event listener to the button
 button.addEventListener("click", displayRandomFact);
 
+// Endpoint URL for CountAPI
+const countAPIEndpoint = 'https://api.countapi.xyz/update/jayermi.com/visit-count/?amount=1';
+// Function to update the count
+function updateCount() {
+    fetch(countAPIEndpoint)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('visit-count').textContent = data.value;
+        })
+        .catch(error => {
+            console.log('Error updating count:', error);
+        });
+}
+// Call the updateCount function to fetch and display the count on page load
+updateCount();
+
+
+
 // Sandbox game variables
 var gameRunning = false;
 
@@ -88,7 +106,6 @@ function movePlayer(direction) {
         drawPlayer();
     }
 }
-
 // Event listeners for player movement
 document.addEventListener("keydown", function (event) {
     switch (event.key) {
@@ -106,7 +123,6 @@ document.addEventListener("keydown", function (event) {
             break;
     }
 });
-
 // Function to start the sandbox game
 function startSandboxGame() {
     if (!gameRunning) {
@@ -115,11 +131,9 @@ function startSandboxGame() {
         console.log("Game Started!");
     }
 }
-
 // Call the start function when the Start button is clicked
 const startButton = document.getElementById("start-button");
 startButton.addEventListener("click", startSandboxGame);
-
 // Initialize the sandbox game
 function initSandboxGame() {
     sandboxElement.style.width = sandboxWidth + "px";
@@ -130,6 +144,5 @@ function initSandboxGame() {
 
     drawPlayer();
 }
-
 // Call the initialization function when the page loads
 window.addEventListener("load", initSandboxGame);
