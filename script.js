@@ -59,6 +59,7 @@ button.addEventListener("click", displayRandomFact);
 
 
 
+/*
 // Sandbox game variables
 var gameRunning = false;
 
@@ -155,6 +156,7 @@ function initSandboxGame() {
 }
 // Call the initialization function when the page loads
 window.addEventListener("load", initSandboxGame);
+*/
 
 document.addEventListener("DOMContentLoaded", function () {
     var lastUpdatedElement = document.getElementById("last-updated");
