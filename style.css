@@ -13,6 +13,15 @@ footer {
     text-align: center;
     /*border-top: 2px solid #333;*/
 }
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Exo 2", sans-serif;
+    background: rgb(63, 161, 251);
+    background: linear-gradient( 142deg, rgba(63, 161, 251, 1) 0%, rgba(252, 70, 168, 1) 100% );
+}
 
 .container {
     max-width: 1200px;
@@ -23,39 +32,10 @@ footer {
     padding: 0 20px; /* Add left and right padding to the container */
 }
 .logo {
-    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
 }
-.sweet-title {
-    color: #fde9ff;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: clamp(3rem, 10vw, 6rem);
-    line-height: 0.75em;
-    text-align: center;
-    text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff, 3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb, 6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff, 6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb, 9px 7px 1px #4af7ff;
-    span {
-        display: block;
-        position: relative;
-    
-        &:before {
-            content: attr(data-text);
-            position: absolute;
-            text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9, -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
-            z-index: 1;
-        }
-
-        &:nth-child(1) {
-            padding-right: 2.25rem;
-        }
-
-        &:nth-child(2) {
-            padding-left: 2.25rem;
-        }
-    }
-}
-
-
-
 
 .title-wrapper {
     display: flex;
@@ -89,7 +69,7 @@ footer {
 .menu li a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 32px;
     transition: color 0.3s ease;
 }
 
@@ -146,4 +126,24 @@ body {
 .my-image {
     width: 400px;
     height: 300px;
+}
+main {
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
