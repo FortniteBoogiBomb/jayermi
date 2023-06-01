@@ -153,7 +153,7 @@ h3 {
 .gear-animation {
     width: 24px;
     height: 24px;
-    background-image: url('images/download.png');
+    background-image: url('images/gear.png');
     background-repeat: no-repeat;
     background-size: contain;
     animation: spin 2s linear infinite;
