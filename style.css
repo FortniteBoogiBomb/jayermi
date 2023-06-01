@@ -2,13 +2,13 @@
 
 /* Target the <h1> element and change its color */
 header {
-    background-color: #AED6F1; /* Baby blue */
+    background-color: #333; /* Baby blue */
     padding: 10px;
     border: 2px solid #3498DB;
 }
 
 footer {
-    background-color: #AED6F1;
+    background-color: #333;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -95,7 +95,7 @@ body {
 #random-fact-container {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #AED6F1; /* Baby blue */
+    background-color: #333; /* Baby blue */
     border: 2px solid #3498DB;
 }
 
