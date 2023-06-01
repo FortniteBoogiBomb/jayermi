@@ -187,3 +187,32 @@ iframe {
         transform: rotate(-360deg);
     }
 }
+
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    /* Styles for mobile devices */
+    /* Adjust the header styles */
+    header {
+        background-color: #AED6F1; /* Baby blue */
+        padding: 10px;
+        border: 2px solid #3498DB;
+    }
+    /* Adjust the footer styles */
+    footer {
+        background-color: #AED6F1;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        border: 2px solid #3498DB;
+        margin-top: auto;
+        flex-shrink: 0;
+    }
+    /* Adjust the main content styles */
+    main {
+        padding: 20px;
+        color: #000;
+    }
+    /* Adjust other elements as needed */
+    /* For example, you can modify font sizes, padding, margins, etc. */
+}
