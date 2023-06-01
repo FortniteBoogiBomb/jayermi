@@ -31,10 +31,12 @@ body {
     align-items: center;
     padding: 0 20px; /* Add left and right padding to the container */
 }
+/* Title styles */
 .logo {
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 36px;
 }
 
 .title-wrapper {
@@ -146,4 +148,24 @@ p {
 h3 {
     font-size: 20px;
     margin-bottom: 10px;
+}
+/* Gear animation */
+.gear-animation {
+    width: 24px;
+    height: 24px;
+    background-image: url('gear-animation.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: spin 2s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
 }
