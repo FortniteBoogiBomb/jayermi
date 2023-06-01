@@ -253,15 +253,22 @@ iframe {
     cursor: pointer;
 }
 .media-container {
-    width: 320px;
-    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
 }
 
-.media-container video {
+.media-item {
+    flex-basis: 45%; /* Adjust the value as needed */
+    text-align: center;
+}
+
+.media-item video {
     width: 100%;
-    height: 100%;
 }
 
-.last-updated {
-    color: #000; /* Set the desired color for the date */
+.media-item p {
+    margin-top: 10px;
+    font-size: 14px;
 }
