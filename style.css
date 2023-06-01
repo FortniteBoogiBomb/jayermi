@@ -216,3 +216,39 @@ iframe {
     /* Adjust other elements as needed */
     /* For example, you can modify font sizes, padding, margins, etc. */
 }
+
+/* Add a specific class to the business card container */
+.business-card {
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+    /* Style the heading */
+.business-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+    /* Style the contact information */
+.business-card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+    /* Style the download resume button */
+.business-card .download-resume-button {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
