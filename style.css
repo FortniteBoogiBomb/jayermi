@@ -261,3 +261,7 @@ iframe {
     width: 100%;
     height: 100%;
 }
+
+.last-updated {
+    color: #000; /* Set the desired color for the date */
+}
