@@ -2,22 +2,27 @@
 
 /* Target the <h1> element and change its color */
 header {
-    background-color: #f5e1ed;
-    padding: 10px 0;
-    border: 1px solid #d5a6c7;
+    background-color: #AED6F1; /* Baby blue */
+    padding: 10px;
+    border: 2px solid #3498DB;
 }
 
 footer {
-    background-color: #f5e1ed;
+    background-color: #AED6F1;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    border: 1px solid #d5a6c7;
+    border: 2px solid #3498DB;
+    margin-top: auto;
+    flex-shrink: 0;
     /*border-top: 2px solid #333;*/
 }
 body, h1, h2, h3, p, ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 body {
     font-family: "Exo 2", sans-serif;
@@ -137,6 +142,7 @@ main {
     text-align: center;
     padding: 40px;
     color: #fff;
+    flex-grow: 1;
 }
 
 h2 {
