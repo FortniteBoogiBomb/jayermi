@@ -160,18 +160,17 @@ document.addEventListener("DOMContentLoaded", function () {
     var lastUpdatedElement = document.getElementById("last-updated");
     var lastUpdatedDate = new Date(document.lastModified).toLocaleDateString();
     lastUpdatedElement.textContent = lastUpdatedDate;
+
+    // Function to get the current date and format it as "Month Day, Year"
+    function getCurrentDate() {
+        const currentDate = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return currentDate.toLocaleDateString(undefined, options);
+    }
+
+    // Update the "last-updated" element with the current date
+    const lastUpdatedElement = document.getElementById('last-updated');
+    if (lastUpdatedElement) {
+        lastUpdatedElement.textContent = getCurrentDate();
+    }
 });
-
-
-// Function to get the current date and format it as "Month Day, Year"
-function getCurrentDate() {
-    const currentDate = new Date();
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return currentDate.toLocaleDateString(undefined, options);
-}
-
-// Update the "last-updated" element with the current date
-const lastUpdatedElement = document.getElementById('last-updated');
-if (lastUpdatedElement) {
-    lastUpdatedElement.textContent = getCurrentDate();
-}
