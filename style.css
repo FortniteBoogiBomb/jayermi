@@ -265,8 +265,8 @@ iframe {
 }
 
 .media-item video {
-    width: 50%;
-    height: 50%;
+    width: 100%; /* Adjust the width as needed */
+    max-height: 300px; /* Adjust the max-height as needed */
 }
 
 .media-item p {
