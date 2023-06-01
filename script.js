@@ -155,3 +155,9 @@ function initSandboxGame() {
 }
 // Call the initialization function when the page loads
 window.addEventListener("load", initSandboxGame);
+
+document.addEventListener("DOMContentLoaded", function () {
+    var lastUpdatedElement = document.getElementById("last-updated");
+    var lastUpdatedDate = new Date(document.lastModified).toLocaleDateString();
+    lastUpdatedElement.textContent = lastUpdatedDate;
+});
