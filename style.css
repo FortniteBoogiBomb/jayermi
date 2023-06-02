@@ -3,7 +3,7 @@
 /* Target the <h1> element and change its color */
 header {
     background-color: #333;
-    padding: 2px 10px; /* Adjust the padding values as needed */
+    padding: calc(5px - 30%) calc(10px); /* Adjust the padding values as needed */
     border: 2px solid #3498DB;
     margin: 10px 0;
 }
