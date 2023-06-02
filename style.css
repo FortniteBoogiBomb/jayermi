@@ -295,3 +295,9 @@ iframe {
 #last-updated {
     color: black;
 }
+
+.pdf-object {
+    width: 100%;
+    height: 600px;
+    /* Add any additional styles as needed */
+}
