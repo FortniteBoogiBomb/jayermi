@@ -215,6 +215,14 @@ iframe {
     main {
         padding: 20px;
         color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* Add spacing between sections */
+    main > *:not(:last-child) {
+        margin-bottom: 20px;
     }
     /* Adjust other elements as needed */
     /* For example, you can modify font sizes, padding, margins, etc. */
