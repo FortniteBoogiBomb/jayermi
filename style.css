@@ -3,8 +3,9 @@
 /* Target the <h1> element and change its color */
 header {
     background-color: #333; /* Baby blue */
-    padding: 10px;
+    padding: 7px;
     border: 2px solid #3498DB;
+    margin: 10px 0;
 }
 
 footer {
