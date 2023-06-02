@@ -208,6 +208,21 @@ iframe {
         padding: 10px;
         border: 2px solid #3498DB;
     }
+
+    .logo {
+        padding: 0 10px; /* Adjust the padding values as needed */
+        font-size: 16px; /* Adjust the font size as needed */
+    }
+
+        .logo img {
+            width: 100px; /* Adjust the size as needed */
+        }
+
+    .gear-animation {
+        width: 20px; /* Adjust the size as needed */
+        height: 20px;
+        margin-left: 3px; /* Adjust the margin as needed */
+    }
     /* Adjust the footer styles */
     footer {
         background-color: #AED6F1;
@@ -228,9 +243,9 @@ iframe {
     }
 
         /* Add spacing between sections */
-    main > *:not(:last-child) {
-        margin-bottom: 20px;
-    }
+        main > *:not(:last-child) {
+            margin-bottom: 20px;
+        }
     /* Adjust other elements as needed */
     /* For example, you can modify font sizes, padding, margins, etc. */
 }
