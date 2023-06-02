@@ -184,7 +184,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: contain;
     animation: spin 2s linear infinite;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 @keyframes spin {
