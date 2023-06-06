@@ -5,8 +5,8 @@ header {
     background-color: #333;
     /*padding: calc(5px - 90%) calc(10px);  Adjust the padding values as needed */
     border: 2px solid #3498DB;
-    margin: 10px 0;
-    padding: 3px 10px;
+    margin: 5px 0;
+    padding: 5px 10px;
 }
 
 footer {
@@ -40,12 +40,12 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 18px;
 }
 
 .logo img {
-    width: 200px; /* Adjust the size as needed */
+    width: 100px; /* Adjust the size as needed */
     height: auto;
     margin-right: 10px;
 }
@@ -78,13 +78,13 @@ body {
 
     .menu li {
         display: inline-block;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
         .menu li a {
             color: #000;
             text-decoration: none;
-            font-size: 32px;
+            font-size: 24px;
             transition: color 0.3s ease;
         }
 
