@@ -6,8 +6,7 @@ header {
     /*padding: calc(5px - 90%) calc(10px);  Adjust the padding values as needed */
     border: 2px solid #3498DB;
     margin: 10px 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 3px 10px;
 }
 
 footer {
