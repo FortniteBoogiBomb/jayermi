@@ -180,8 +180,8 @@ iframe {
 }
 
 .gear-animation {
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
     background-image: url('images/gear.png');
     background-repeat: no-repeat;
     background-size: contain;
