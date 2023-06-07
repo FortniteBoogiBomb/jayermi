@@ -247,15 +247,15 @@ iframe {
         }
 
     .logo img {
-        width: 90px;
-        height: 60px; /* Adjust the size as needed */
+        width: 180px;
+        height: 120px; /* Adjust the size as needed */
         margin-right: 5px;
         order: 1;
     }
 
     .gear-animation {
-        width: 20px; /* Adjust the size as needed */
-        height: 20px;
+        width: 40px; /* Adjust the size as needed */
+        height: 40px;
         margin-left: 3px;
         order: 2;
         /*margin-left: 3px; Adjust the margin as needed */
