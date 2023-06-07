@@ -313,6 +313,15 @@ iframe {
         width: 100%; /* Set the width to full width */
         height: auto; /* Allow the height to adjust automatically */
     }
+    /* Update the link styles */
+    header nav ul li a {
+        color: black; /* Set the text color to black */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    header nav ul li a:hover {
+        color: #ffcc00; /* Set the hover text color to the desired color */
+    }
 }
 
 /* Add a specific class to the business card container */
@@ -384,4 +393,11 @@ iframe {
 .pdf-container {
     padding: 20px; /* Adjust the padding as needed */
 }
+header nav ul li a {
+    color: black; /* Set the text color to black */
+    text-decoration: none; /* Remove underline from links */
+}
 
+    header nav ul li a:hover {
+        color: #ffcc00; /* Set the hover text color to the desired color */
+    }
