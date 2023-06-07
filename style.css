@@ -210,9 +210,10 @@ iframe {
         border: 2px solid #3498DB;
         top: 0;
         right: 0;
+        left: 0;
         position: fixed;
-        z-index: 9999;
         width: 100%;
+        text-align: center;
     }
     .container {
         flex-direction: column;
@@ -225,8 +226,10 @@ iframe {
         padding: 0 5px; /* Adjust the padding values as needed */
         font-size: 16px; /* Adjust the font size as needed */
         margin: 0;
+        display: flex;
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
+        justify-content: center;
     }
     .menu {
         margin-top: 10px;
@@ -265,6 +268,7 @@ iframe {
         flex-direction: column;
         align-items: center;
         font-size: 80%;
+        margin-top: 70px;
     }
 
         /* Add spacing between sections */
