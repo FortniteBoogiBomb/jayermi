@@ -42,23 +42,23 @@ function displayRandomFact() {
 button.addEventListener("click", displayRandomFact);
 
 // Endpoint URL for CountAPI
-//const countAPIEndpoint = 'https://api.countapi.xyz/update/jayermi.com/visit-count/?amount=1';
-// Function to update the count
-//function updateCount() {
-//    fetch(countAPIEndpoint)
-//        .then(response => response.json())
-//        .then(data => {
-//            document.getElementById('visit-count').textContent = data.value;
-//        })
-//       .catch(error => {
-//            console.log('Error updating count:', error);
-//       });
-//}
+const countAPIEndpoint = 'https://api.countapi.xyz/update/jayermi.com/visit-count/?amount=1';
+//Function to update the count
+function updateCount() {
+    fetch(countAPIEndpoint)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('visit-count').textContent = data.value;
+        })
+       .catch(error => {
+            console.log('Error updating count:', error);
+       });
+}
 // Call the updateCount function to fetch and display the count on page load
-//updateCount();
+updateCount();
 
 
-startGame();
+//startGame();
 document.addEventListener("DOMContentLoaded", function () {
     var lastUpdatedElement = document.getElementById("last-updated");
     var lastUpdatedDate = new Date(document.lastModified).toLocaleDateString();
