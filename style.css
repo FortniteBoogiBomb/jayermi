@@ -211,7 +211,6 @@ iframe {
         border: 2px solid #3498DB;
         top: 0;
         right: 0;
-        z-index: 999;
         position: fixed;
     }
     .container {
