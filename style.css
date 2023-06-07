@@ -227,6 +227,7 @@ iframe {
         font-size: 16px; /* Adjust the font size as needed */
         margin: 0;
         display: flex;
+        flex-direction: column;
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
         justify-content: center;
