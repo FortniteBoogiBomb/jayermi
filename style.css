@@ -234,9 +234,8 @@ iframe {
         /*flex-direction: column;*/
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
-        justify-content: flex-start;
+        justify-content: center;
         margin-bottom: 10px;
-        margin-left: 10px;
         width: 100%
     }
     .menu {
