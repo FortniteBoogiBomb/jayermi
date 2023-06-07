@@ -222,7 +222,7 @@ iframe {
         flex-direction: column;
         align-items: center;
         padding: 10px;
-        margin-top: 40px;
+        margin-top: 20px;
         justify-content:center;
     }
 
@@ -236,6 +236,7 @@ iframe {
         align-items: center; /* Center the logo and gear vertically */
         justify-content: center;
         margin-bottom: 10px;
+        margin-left: 10px;
         width: 100%
     }
     .menu {
