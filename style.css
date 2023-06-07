@@ -206,7 +206,7 @@ iframe {
     /* Adjust the header styles */
     header {
         background-color: #AED6F1; /* Baby blue */
-        padding: 10px 10px 10px 10px;
+        padding: 5px 5px 10px 10px;
         border: 2px solid #3498DB;
         top: 0;
         right: 0;
@@ -249,7 +249,7 @@ iframe {
     .logo img {
         width: 300px;
         height: 200px; /* Adjust the size as needed */
-        margin-right: 5px;
+        margin-right: 3px;
         order: 1;
     }
 
