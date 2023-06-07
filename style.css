@@ -41,7 +41,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .logo img {
@@ -216,7 +216,8 @@ iframe {
     }
 
         .logo img {
-            width: 100px; /* Adjust the size as needed */
+            width: 300px;
+            height: 200px;/* Adjust the size as needed */
         }
 
     .gear-animation {
@@ -321,3 +322,4 @@ iframe {
 .pdf-container {
     padding: 20px; /* Adjust the padding as needed */
 }
+
