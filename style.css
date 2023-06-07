@@ -220,6 +220,7 @@ iframe {
         align-items: center;
         padding: 10px;
         margin-top: 70px;
+        justify-content:center;
     }
 
     .logo {
@@ -230,15 +231,16 @@ iframe {
         flex-direction: column;
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
-        justify-content: center;
+        justify-content: flex-end;
         margin-bottom: 10px;
+        width: 100%
     }
     .menu {
         margin-top: 10px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    
+        width: 100%;
     }
         .menu li a {
             font-size: 16px;
