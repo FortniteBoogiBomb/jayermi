@@ -256,7 +256,7 @@ iframe {
     .gear-animation {
         width: 40px; /* Adjust the size as needed */
         height: 40px;
-        margin-left: 3px;
+        margin-left: 1px;
         order: 2;
         /*margin-left: 3px; Adjust the margin as needed */
     }
