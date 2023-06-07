@@ -292,6 +292,27 @@ iframe {
         }
     /* Adjust other elements as needed */
     /* For example, you can modify font sizes, padding, margins, etc. */
+    .media-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .media-item {
+        width: 100%; /* Set the width to full width */
+        margin-bottom: 20px; /* Add spacing between the media items */
+    }
+
+    .media-item video {
+        width: 100%; /* Set the width to full width */
+        max-height: auto; /* Allow the height to adjust automatically */
+    }
+
+    .my-image {
+        width: 100%; /* Set the width to full width */
+        height: auto; /* Allow the height to adjust automatically */
+    }
 }
 
 /* Add a specific class to the business card container */
