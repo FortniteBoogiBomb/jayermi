@@ -230,9 +230,12 @@ iframe {
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
         justify-content: center;
+        margin-bottom: 10px;
     }
     .menu {
         margin-top: 10px;
+        display: flex;
+        justify-content: center;
     
     }
         .menu li a {
