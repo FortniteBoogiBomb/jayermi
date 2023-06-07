@@ -206,7 +206,7 @@ iframe {
     /* Adjust the header styles */
     header {
         background-color: #AED6F1; /* Baby blue */
-        padding: 10px;
+        padding: 10px 10px 10px 10px;
         border: 2px solid #3498DB;
         top: 0;
         right: 0;
