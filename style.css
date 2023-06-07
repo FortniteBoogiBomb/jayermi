@@ -208,11 +208,25 @@ iframe {
         background-color: #AED6F1; /* Baby blue */
         padding: 10px;
         border: 2px solid #3498DB;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        position: fixed;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
 
     .logo {
-        padding: 0 10px; /* Adjust the padding values as needed */
+        padding: 0 5px; /* Adjust the padding values as needed */
         font-size: 16px; /* Adjust the font size as needed */
+        margin: 0;
+    }
+    .menu {
+        margin-top: 10px;
+    
     }
 
         .logo img {
