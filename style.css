@@ -211,7 +211,7 @@ iframe {
         top: 0;
         right: 0;
         left: 0;
-        position: fixed;
+        position: sticky;
         width: 100%;
         text-align: center;
     }
@@ -268,8 +268,8 @@ iframe {
         flex-direction: column;
         align-items: center;
         font-size: 80%;
-        margin-top: 90px;
-        padding-top: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
     }
 
         /* Add spacing between sections */
