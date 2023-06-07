@@ -212,10 +212,11 @@ iframe {
         right: 0;
         position: fixed;
         z-index: 9999;
+        width: 100%;
     }
     .container {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         padding: 10px;
         margin-top: 70px;
     }
@@ -224,7 +225,7 @@ iframe {
         padding: 0 5px; /* Adjust the padding values as needed */
         font-size: 16px; /* Adjust the font size as needed */
         margin: 0;
-        display: inline-flex; /* Ensure the logo and gear are on the same line */
+         /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
     }
     .menu {
