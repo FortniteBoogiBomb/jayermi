@@ -251,14 +251,14 @@ iframe {
     .logo img {
         width: 300px;
         height: 200px; /* Adjust the size as needed */
-        margin-right: 1px;
+        margin-right: 0px;
         order: 1;
     }
 
     .gear-animation {
         width: 40px; /* Adjust the size as needed */
         height: 40px;
-        margin-left: 1px;
+        margin-left: 0px;
         order: 2;
         /*margin-left: 3px; Adjust the margin as needed */
     }
