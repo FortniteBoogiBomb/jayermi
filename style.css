@@ -228,10 +228,10 @@ iframe {
         font-size: 20px; /* Adjust the font size as needed */
         margin: 0;
         display: flex;
-        flex-direction: column;
+        /*flex-direction: column;*/
          /* Ensure the logo and gear are on the same line */
         align-items: center; /* Center the logo and gear vertically */
-        justify-content: flex-end;
+        justify-content: center;
         margin-bottom: 10px;
         width: 100%
     }
@@ -250,11 +250,14 @@ iframe {
         width: 30px;
         height: 20px; /* Adjust the size as needed */
         margin-right: 5px;
+        order: 1;
     }
 
     .gear-animation {
         width: 20px; /* Adjust the size as needed */
         height: 20px;
+        margin-left: 3px;
+        order: 2;
         /*margin-left: 3px; Adjust the margin as needed */
     }
     /* Adjust the footer styles */
