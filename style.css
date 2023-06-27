@@ -114,6 +114,9 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 250px;
+    height: 80px;
+    font-size: 24px;
 }
 
 #sandbox {
