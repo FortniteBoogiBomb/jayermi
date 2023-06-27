@@ -117,7 +117,7 @@ body {
     width: 250px;
     height: 70px;
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 #sandbox {
@@ -176,7 +176,7 @@ h3 {
 iframe {
     display: block;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 #start-button {
