@@ -400,6 +400,6 @@ header nav ul li a {
     font-size: 22px;
 }
 
-    header nav ul li a:hover {
-        color: #ffcc00; /* Set the hover text color to the desired color */
-    }
+header nav ul li a:hover {
+    color: #ffcc00; /* Set the hover text color to the desired color */
+}
