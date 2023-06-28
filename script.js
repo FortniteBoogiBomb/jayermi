@@ -21,6 +21,24 @@ const facts = [
     "Y'all ever had a hankerin' for some fried chicken? Well, the Colonel himself, Colonel Sanders, started Kentucky Fried Chicken at the ripe age of 65! Proof that it's never too late to chase your fried dreams!",
     "Ants are master farmers.Some species cultivate their own gardens, growing fungus as a food source.They carefully tend to their fungal crops, ensuring they have the right conditions for growth.It's like having green thumbs, but on a whole different level.",
     "Ants have an extraordinary sense of smell.They can detect the tiniest traces of pheromones, chemical signals that guide them to food sources or help them communicate with other ants.It's like having a built-in GPS that leads them straight to success.",
+    "Some dinosaurs engaged in elaborate courtship rituals, such as head-butting and tail-whipping, to attract mates.",
+    "Certain dinosaur species laid eggs in communal nests, indicating a cooperative nesting behavior.",
+    "Fossil evidence suggests that some dinosaurs may have displayed colorful plumage or elaborate crests to attract mates, similar to modern-day birds.",
+    "There have been numerous reports of unidentified flying objects (UFOs) exhibiting extraordinary speed and maneuverability beyond the capabilities of known human-made aircraft.",
+    "Pilots and military personnel have reported encounters with unidentified aircraft that demonstrate unconventional flight patterns, such as sudden changes in direction or hovering without visible means of propulsion.",
+    "Some unidentified aircraft sightings have been accompanied by corroborating radar data, capturing the presence of objects moving at high speeds or exhibiting unusual flight characteristics.",
+    "The Mariana Trench, located in the western Pacific Ocean, is the deepest part of the world's oceans, reaching a depth of approximately 36,070 feet (10,994 meters).",
+    "Deep-sea exploration has revealed the existence of hydrothermal vents, where mineral-rich fluids spew out of the ocean floor, supporting unique ecosystems adapted to extreme conditions.",
+    "Scientists have discovered new species during deep-sea exploration, some of which exhibit fascinating adaptations such as bioluminescence or transparent bodies.",
+    "Thomas Midgley Jr., an inventor, played a role in the development of both leaded gasoline and chlorofluorocarbons (CFCs), both of which had detrimental effects on the environment and human health.",
+    "Franz Reichelt, an Austrian tailor and inventor, tragically lost his life while testing a parachute suit he had designed, as the suit failed to provide sufficient air resistance for a safe descent.",
+    "Marie Curie, the renowned physicist and chemist, faced health issues and ultimately succumbed to radiation-related illnesses resulting from her groundbreaking research on radioactivity.",
+    "The Tunguska event, which occurred in 1908 in Siberia, is one of the most mysterious explosions in history. It flattened over 770 square miles of forest, but no impact crater or debris from a meteorite was found at the site.",
+    "The Voynich Manuscript, a mysterious 15th-century book written in an unknown language or code, has confounded linguists, historians, and cryptographers for centuries, and its meaning remains undeciphered.",
+    "The Dancing Plague of 1518 was a strange phenomenon in which hundreds of people in Strasbourg, France, danced uncontrollably for days, some even dying from exhaustion or heart attacks. The cause of this mass hysteria remains unexplained.",
+    "The disappearance of the Roanoke Colony in 1590 is a puzzling historical mystery. The settlement in present-day North Carolina vanished without a trace, with the word 'Croatoan' carved into a tree as the only clue left behind.",
+    "The Taos Hum is a persistent low-frequency humming sound heard by numerous residents of Taos, New Mexico, since the early 1990s. Despite investigations, its source and cause have not been definitively identified.",
+
     // Add more facts here
 ];
 
