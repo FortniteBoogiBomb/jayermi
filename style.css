@@ -393,7 +393,7 @@ iframe {
 
 .pdf-object {
     width: 100%;
-    height: auto;
+    height: 1200px;
     /* Add any additional styles as needed */
 }
 .pdf-container {
