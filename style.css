@@ -260,13 +260,17 @@ iframe {
         margin-right: 0px;
         order: 1;
     }
-
+    iframe {
+        width: 100%;
+        height: auto;
+    }
     .gear-animation {
-        width: 40px; /* Adjust the size as needed */
+        display: none;
+      /* width: 40px; /* Adjust the size as needed 
         height: 40px;
         margin-left: 0px;
         order: 2;
-        /*margin-left: 3px; Adjust the margin as needed */
+        margin-left: 3px; Adjust the margin as needed */
     }
     /* Adjust the footer styles */
     footer {
