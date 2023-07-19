@@ -391,7 +391,7 @@ iframe {
     font-size: 14px;
 }
 .media-item c {
-    width: auto;
+    max-width: 100%;
     height: auto;
 }
 
