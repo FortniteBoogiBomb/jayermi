@@ -390,6 +390,10 @@ iframe {
     margin-top: 10px;
     font-size: 14px;
 }
+.media-item c {
+    width: auto;
+    height: auto;
+}
 
 #last-updated {
     color: black;
